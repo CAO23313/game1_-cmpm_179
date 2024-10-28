@@ -217,7 +217,7 @@ class Thirdgame extends Phaser.Scene {
         const carX = width + 100; 
 
         const car = this.carsGroup.create(carX, carY, 'car_sheet').setOrigin(0, 1);
-        car.setVelocityX(-500); 
+        car.setVelocityX(-800); 
         car.setGravityY(0); // Ensure car doesn't bounce by keeping it on the ground
         car.anims.play('car', true); 
     }

@@ -20,12 +20,25 @@
       width: 800px;
       height: 640px;
     }
+    #game-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    }
+    #game-description {
+        text-align: center;
+        font-size: 18px;
+        color: #333;
+    }
   </style>
 </head>
 
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="game"></div>
+  <p id="game-description">SPACE: Jump</p>
+  <p id="game-description">Left/Right Arrow: Left/Right</p>
+  <p id="game-description">Trying to collect enough nuts for the squirrel goes over the winter</p>
   <script src="//cdn.jsdelivr.net/npm/phaser@3.17.0/dist/phaser.min.js"></script>
   <script src="./src/Scenes/goodEnd.js"></script>
   <script src="./src/Scenes/badEnd.js"></script>

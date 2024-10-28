@@ -8,11 +8,11 @@ const config = {
     scale: {
       autoCenter: Phaser.Scale.CENTER_BOTH
     },
-    scene: [MainMenu, Maingame, Secondgame, Thirdgame, selectMenu, badEnd, goodEnd],
+    scene: [Thirdgame, MainMenu, Maingame, Secondgame, selectMenu, badEnd, goodEnd],
     physics: {
       default: 'arcade',
       arcade: {
-        debug: true,
+        debug: false,
       }
     },
   };
