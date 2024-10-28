@@ -95,6 +95,7 @@ class Thirdgame extends Phaser.Scene {
             health -= 1;
             healthText.setText('Health: ' + health);
             if (health <= 0) {
+                this.sound.play("end_sound");
                 this.scene.start('badEnd');
             }
             player.setVelocity(0, 0);
@@ -225,6 +226,7 @@ class Thirdgame extends Phaser.Scene {
     hitByCar(squirrel, car) {
         health -= 1;
         if (health <= 0) {
+            this.sound.play("end_sound");
             this.scene.start('badEnd');
         }
         car.destroy(); 
