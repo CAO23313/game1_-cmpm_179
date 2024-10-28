@@ -1,0 +1,69 @@
+{
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "": {
+            "scaleInDock": 1
+        },
+        "C:/Users/2904368726/Desktop/final-game-project-Eric-main/assets/tilemaps/level1.json": {
+            "expandedObjectLayers": [
+                10
+            ],
+            "scale": 1,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 487,
+                "y": -48
+            }
+        },
+        "C:/Users/2904368726/Desktop/final-game-project-Eric-main/assets/tilemaps/level1.json#box": {
+            "scaleInDock": 1
+        },
+        "C:/Users/2904368726/Desktop/final-game-project-Eric-main/assets/tilemaps/level1.json#game_3": {
+            "scaleInDock": 1
+        },
+        "C:/Users/2904368726/Desktop/final-game-project-Eric-main/assets/tilemaps/level1.json#ground_tile": {
+            "scaleInDock": 1
+        },
+        "second_game.js": {
+            "scale": 0.75,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 749.3333333333333,
+                "y": 843.9999999999999
+            }
+        },
+        "second_game.js#ground_tile": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "second_game.tmj": {
+            "expandedObjectLayers": [
+                3
+            ],
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 3186,
+                "y": 404
+            }
+        },
+        "second_game.tmj#ground_tile": {
+            "scaleInDock": 1
+        },
+        "second_game.tmj#nuts_tile": {
+            "scaleInDock": 1
+        }
+    },
+    "last.imagePath": "C:/Users/2904368726/Desktop/Game 1/assets/images",
+    "map.lastUsedFormat": "json",
+    "openFiles": [
+    ],
+    "project": "game 1.tiled-project",
+    "recentFiles": [
+        "C:/Users/2904368726/Desktop/final-game-project-Eric-main/assets/tilemaps/level1.json",
+        "second_game.js"
+    ],
+    "tileset.embedInMap": true
+}
